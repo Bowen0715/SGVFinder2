@@ -2,7 +2,7 @@ import logging
 import ujson
 import gzip
 import numpy as np 
-import bokeh.plotting as bpl
+# import bokeh.plotting as bpl
 from scipy.stats._continuous_distns import norm, betaprime, ncx2
 from itertools import combinations, product
 from scipy.spatial.distance import pdist, squareform
@@ -13,11 +13,11 @@ from pandas import read_pickle, to_pickle, DataFrame, concat, Series
 from os.path import basename, join, splitext, isdir
 from collections import defaultdict
 from glob import glob
-from bokeh.layouts import column
-from bokeh.models.sources import ColumnDataSource
-from bokeh.models.tools import HoverTool, TapTool
-from bokeh.models.ranges import Range1d
-from bokeh.models.callbacks import OpenURL
+# from bokeh.layouts import column
+# from bokeh.models.sources import ColumnDataSource
+# from bokeh.models.tools import HoverTool, TapTool
+# from bokeh.models.ranges import Range1d
+# from bokeh.models.callbacks import OpenURL
 
 log_ = logging.getLogger('SGVF')
 
